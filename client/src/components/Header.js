@@ -14,11 +14,11 @@ const Header = props => {
       case 'about':
         navigate('/about');
         break;
-      
+
       case 'projects':
         navigate('/projects');
         break;
-      
+
       default:
         break;
     }
