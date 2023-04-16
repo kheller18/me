@@ -34,7 +34,6 @@ const Header = props => {
         <li className='header-item' id='projects' onClick={(e => handleClick(e.target.id))}>Projects</li>
         <li className='header-item' id='resume'>Resume</li>
         <FontAwesomeIcon className='header-icon header-item' id='' icon={faCircle} onClick={props.toggleTheme} />
-
       </ul>
     </div>
   );
