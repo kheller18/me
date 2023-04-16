@@ -2,8 +2,7 @@ import React from 'react';
 import Image from './Image';
 import me from '../media/travel/spain_me.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle } from  '@fortawesome/free-regular-svg-icons';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../styles/Landing.css';
 
 const Landing = () => {
