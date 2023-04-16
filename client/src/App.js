@@ -21,9 +21,11 @@ function App() {
     <Router>
       <div className={`App ${theme}`}>
         <Header toggleTheme={toggleTheme} />
-        <Routes>
-          <Route path='/' exact element={<Landing />} />
-        </Routes>
+        <div className='App-body'>
+          <Routes>
+            <Route path='/' exact element={<Landing />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
