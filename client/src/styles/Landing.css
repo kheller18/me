@@ -1,3 +1,35 @@
 .landing-container {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-image-container {
+  width: 400px;
+  height: 400px;
+}
+
+.landing-image {
+  object-fit: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+.landing-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.landing-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 10px;
+}
+
+.landing-icon:hover {
+  cursor: pointer;
+  color: var(--light-font-color-hover);
+  /* background-color: white; */
 }
