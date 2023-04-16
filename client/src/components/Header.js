@@ -4,9 +4,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faWallet, faCartShopping, faUser, faCircle } from  '@fortawesome/free-solid-svg-icons';
-// import { faCircle } from  '@fortawesome/free-regular-svg-icons';
-// import Cart from './Cart';
-// import UserDropdown from './UserDropdown';
+import { faCircle } from  '@fortawesome/free-regular-svg-icons';
 import '../styles/Header.css';
 
 const Header = props => {
@@ -21,6 +19,7 @@ const Header = props => {
   // handles when user clicks cart
   const handleClick = () => {
     showCart ? setShowCart(false) : setShowCart(true);
+
   };
 
   // handles when user clicks wallet
@@ -37,10 +36,11 @@ const Header = props => {
   return (
     <div className='header-container'>
       <div className='header-left'>
-        <h2>KH</h2>
+        <h1 className='header-name'>KH</h1>
       </div>
       <div className="header-right">
-        
+        <FontAwesomeIcon className='' id='' icon={faCircle} onClick={props.toggleTheme} />
+
       </div>
     </div>
   );
