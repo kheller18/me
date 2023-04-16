@@ -21,7 +21,7 @@ const Header = props => {
 
       default:
         break;
-    }
+    };
   };
 
   return (
