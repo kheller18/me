@@ -15,8 +15,20 @@ const Header = props => {
   };
 
   // handles when user clicks cart
-  const handleClick = () => {
+  const handleClick = (id) => {
     showCart ? setShowCart(false) : setShowCart(true);
+    switch (id) {
+      case 'about':
+        navigate('/about');
+        break;
+      
+      case 'projects':
+        navigate('/projects');
+        break;
+      
+      default:
+        break;
+    }
 
   };
 
@@ -37,8 +49,8 @@ const Header = props => {
         <h1 className='header-name'>KH</h1>
       </div>
       <ul className="header-right">
-        <li className='header-item' id='about'>About</li>
-        <li className='header-item' id='projects'>Projects</li>
+        <li className='header-item' id='about' onClick={(e => handleClick(e.target.id))}>About</li>
+        <li className='header-item' id='projects' onClick={(e => handleClick(e.target.id))}>Projects</li>
         <li className='header-item' id='resume'>Resume</li>
         <FontAwesomeIcon className='header-icon header-item' id='' icon={faCircle} onClick={props.toggleTheme} />
 
