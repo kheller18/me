@@ -9,23 +9,28 @@
 }
 
 .header-right {
-  width: 180px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
 }
 
 .header-icon {
-  color: white;
+  /* color: white; */
   width: 20px;
   height: 20px;
 }
 
-.header-icon:hover {
+.header-item {
+  list-style-type: none;
+  margin: 0px 5px 0px 5px;
+}
+
+.header-item:hover {
   cursor: pointer;
-  transform: scale(1.5);
+  /* transform: scale(1.5);
   transition: ease-in;
   animation-delay: 2s;
-  color: #85bb65;
+  color: #85bb65; */
 }
 
 .header-logo {
@@ -34,11 +39,6 @@
 
 .header-logo:hover {
   cursor: pointer;
-}
-
-.cart-icons {
-  color: white;
-  background-color: black;
 }
 
 @keyframes header-icon-key {

@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 // import Image from './Image';
-// import logo from '../logos/logo_no_text.png';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faWallet, faCartShopping, faUser, faCircle } from  '@fortawesome/free-solid-svg-icons';
 import { faCircle } from  '@fortawesome/free-regular-svg-icons';
 import '../styles/Header.css';
 
@@ -38,10 +36,13 @@ const Header = props => {
       <div className='header-left'>
         <h1 className='header-name'>KH</h1>
       </div>
-      <div className="header-right">
-        <FontAwesomeIcon className='' id='' icon={faCircle} onClick={props.toggleTheme} />
+      <ul className="header-right">
+        <li className='header-item' id='about'>About</li>
+        <li className='header-item' id='projects'>Projects</li>
+        <li className='header-item' id='resume'>Resume</li>
+        <FontAwesomeIcon className='header-icon header-item' id='' icon={faCircle} onClick={props.toggleTheme} />
 
-      </div>
+      </ul>
     </div>
   );
 };
