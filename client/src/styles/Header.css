@@ -14,6 +14,11 @@
   justify-content: space-between;
 }
 
+.header-name:hover {
+  cursor: pointer;
+  color: var(--light-font-color-hover);
+}
+
 .header-icon {
   /* color: white; */
   width: 20px;
