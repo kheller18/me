@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-// import Image from './Image';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from  '@fortawesome/free-regular-svg-icons';
+import PDF from '../media/resume/KeenanHellerResume.pdf';
 import '../styles/Header.css';
 
 const Header = props => {
@@ -36,7 +36,7 @@ const Header = props => {
       <ul className="header-right">
         <li className='header-item' id='about' onClick={(e => handleClick(e.target.id))}>About</li>
         <li className='header-item' id='projects' onClick={(e => handleClick(e.target.id))}>Projects</li>
-        <li className='header-item' id='resume'>Resume</li>
+        <a className='header-item' id='resume' href={PDF} target='_blank' rel='noopener noreferrer'>Resume</a>
         <FontAwesomeIcon className='header-icon header-item' id='mode' icon={faCircle} onClick={props.toggleTheme} />
       </ul>
     </div>
