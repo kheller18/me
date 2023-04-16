@@ -6,17 +6,10 @@ import { faCircle } from  '@fortawesome/free-regular-svg-icons';
 import '../styles/Header.css';
 
 const Header = props => {
-  const [showCart, setShowCart] = useState(false);
-  const [showUser, setShowUser] = useState(false);
   const navigate = useNavigate();
-
-  const handleNavigateClick = () => {
-    navigate('/');
-  };
 
   // handles when user clicks cart
   const handleClick = (id) => {
-    showCart ? setShowCart(false) : setShowCart(true);
     switch (id) {
       case 'about':
         navigate('/about');
@@ -29,18 +22,6 @@ const Header = props => {
       default:
         break;
     }
-
-  };
-
-  // handles when user clicks wallet
-  const handleWalletClick = async () => {
-    // const address = await getUserAddress();
-    // props.setWalletAddress(address);
-  };
-
-  // handles when user clicks icon
-  const handleUserClick = () => {
-    showUser ? setShowUser(false) : setShowUser(true);
   };
 
   return (
