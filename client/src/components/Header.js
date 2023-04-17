@@ -23,6 +23,10 @@ const Header = props => {
         navigate('/projects'); // navigates to project page
         break;
 
+      case 'contact':
+        navigate('/contact'); // navigates to contact page
+        break;
+
       default:
         break; // handles invalid route
     };
@@ -37,6 +41,7 @@ const Header = props => {
         <li className='header-item' id='about' onClick={(e => handleClick(e.target.id))}>About</li>
         <li className='header-item' id='projects' onClick={(e => handleClick(e.target.id))}>Projects</li>
         <a className='header-item' id='resume' href={PDF} target='_blank' rel='noopener noreferrer'>Resume</a>
+        <li className='header-item' id='contact' onClick={(e => handleClick(e.target.id))}>Contact</li>
         <FontAwesomeIcon className='header-icon header-item' id='mode' icon={faCircle} onClick={props.toggleTheme} />
       </ul>
     </div>

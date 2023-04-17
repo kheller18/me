@@ -15,8 +15,12 @@ const Landing = () => {
         <h1 className='landing-name'>Keenan Heller</h1>
         <p className='landing-name'>Full Stack Developer @ Boeing</p>
         <div className='landing-icons'>
-          <FontAwesomeIcon className='landing-icon' id='github' icon={faGithub} />
-          <FontAwesomeIcon className='landing-icon' id='linkedin' icon={faLinkedin} />
+          <a href='https://github.com/kheller18' target='_blank' rel='noopener noreferrer' aria-label='GitHub'>
+            <FontAwesomeIcon className='landing-icon' id='github' icon={faGithub} />
+          </a>
+          <a href='https://www.linkedin.com/in/keenanheller/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn'>
+            <FontAwesomeIcon className='landing-icon' id='linkedin' icon={faLinkedin} />
+          </a>
         </div>
       </div>
     </div>
