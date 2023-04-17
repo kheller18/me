@@ -1,8 +1,10 @@
 import React from 'react';
+import '../styles/About.css';
 
-const About = (props) => {
+const About = () => {
   return (
     <div className='about-container'>
+      <h1 className='about-container-header'>About</h1>
 
     </div>
   );

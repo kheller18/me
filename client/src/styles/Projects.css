@@ -1,14 +1,21 @@
 .projects-container {
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   /* justify-self: center; */
-  /* align-self: center; */
-  /* width: 80%; */
+  align-self: center;
+  /* width: 1250px; */
   margin-bottom: 50px;
 }
 
 .projects-container-header {
-  /* text-align: left; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: left;
+  width: 1250px;
+  border-bottom: 2px solid white;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
 }
 
 .project-img {
@@ -28,7 +35,7 @@
 .project {
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   width: 1250px;
   box-sizing: border-box;
 }
@@ -60,4 +67,8 @@
 
 .project-title {
   margin-top: 0px;
+}
+
+.project-icon {
+  padding-left: 10px;
 }
