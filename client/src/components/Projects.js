@@ -7,9 +7,10 @@ import verdant from '../media/projects/verdant_earth.png';
 import fitness from '../media/projects/fitness.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faNodeJs, faJs, faHtml5, faMdb, faCss3Alt, faEthereum, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Projects.css';
 
-const Projects = (props) => {
+const Projects = () => {
   return (
     <div className='projects-container'>
       <h1 className='projects-container-header'>Projects</h1>
@@ -17,8 +18,9 @@ const Projects = (props) => {
         <div className='project' id='sportsbook'>
           <Image className='project-img' src={sportsbook} />
           <div className='project-details'>
-            <h1 className='project-title'>SportsBook</h1>
-            <a className='project-link' href='https://sbook-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='SportsBook'>https://sbook-kman.herokuapp.com/</a>
+            <a className='project-link' href='https://sbook-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='SportsBook'>
+              <h1 className='project-title'>SportsBook<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+            </a>
             <p className='project-description'>A React.js sports betting website where users can place bets and track their earnings.</p>
             <h2 className='project-subtitle'>Built Using</h2>
             <div className='project-technologies'>
@@ -50,8 +52,9 @@ const Projects = (props) => {
         <div className='project' id='stuffswap'>
           <Image className='project-img' src={stuffswap} />
           <div className='project-details'>
-            <h1 className='project-title'>StuffSwap</h1>
-            <a className='project-link' href='https://stuff-swap.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='StuffSwap'>https://stuff-swap.herokuapp.com/</a>
+            <a className='project-link' href='https://stuff-swap.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='StuffSwap'>
+              <h1 className='project-title'>StuffSwap<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+            </a>
             <p className='project-description'>An NFT marketplace to add collections, buy and sell NFT's.</p>
             <h2 className='project-subtitle'>Built Using</h2>
             <div className='project-technologies'>
@@ -83,8 +86,9 @@ const Projects = (props) => {
         <div className='project' id='chefify'>
           <Image className='project-img' src={chefify} />
           <div className='project-details'>
-            <h1 className='project-title'>Chefify</h1>
-            <a className='project-link' href='https://kheller18.github.io/chefify/' target='_blank' rel='noopener noreferrer' aria-label='Chefify'>https://kheller18.github.io/chefify/</a>
+            <a className='project-link' href='https://kheller18.github.io/chefify/' target='_blank' rel='noopener noreferrer' aria-label='Chefify'>
+              <h1 className='project-title'>Chefify<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+            </a>
             <p className='project-description'>An application that a user can search for recipes and customize their experience based on their interests.</p>
             <h2 className='project-subtitle'>Built Using</h2>
             <div className='project-technologies'>
@@ -107,8 +111,9 @@ const Projects = (props) => {
         <div className='project' id='Verdant'>
           <Image className='project-img' src={verdant} />
           <div className='project-details'>
-            <h1 className='project-title'>Verdant Earth</h1>
-            <a className='project-link' href='https://verdant-earth.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Verdant Earth'>https://verdant-earth.herokuapp.com/</a>
+            <a className='project-link' href='https://verdant-earth.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Verdant Earth'>
+              <h1 className='project-title'>Verdant Earth<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+            </a>
             <p className='project-description'>An application that promotes renewable products and resources.</p>
             <h2 className='project-subtitle'>Built Using</h2>
             <div className='project-technologies'>
@@ -137,8 +142,9 @@ const Projects = (props) => {
         <div className='project' id='fitness'>
           <Image className='project-img' src={fitness} />
           <div className='project-details'>
-            <h1 className='project-title'>Workout Tracker</h1>
-            <a className='project-link' href='https://workout-tracker-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Workout Tracker'>https://workout-tracker-kman.herokuapp.com/</a>
+            <a className='project-link' href='https://workout-tracker-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Workout Tracker'>
+              <h1 className='project-title'>Workout Tracker<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+            </a>
             <p className='project-description'>An application for users to enter their workouts and track their progress.</p>
             <h2 className='project-subtitle'>Built Using</h2>
             <div className='project-technologies'>
