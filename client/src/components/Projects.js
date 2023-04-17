@@ -16,7 +16,9 @@ const Projects = () => {
       <h1 className='projects-container-header'>Projects</h1>
       <div className='projects'>
         <div className='project' id='sportsbook'>
-          <Image className='project-img' src={sportsbook} />
+          <div className='project-img-container'>
+            <Image className='project-img' src={sportsbook} />
+          </div>
           <div className='project-details'>
             <a className='project-link' href='https://sbook-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='SportsBook'>
               <h1 className='project-title'>SportsBook<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
@@ -50,7 +52,9 @@ const Projects = () => {
           </div>
         </div>
         <div className='project' id='stuffswap'>
-          <Image className='project-img' src={stuffswap} />
+          <div className='project-img-container'>
+            <Image className='project-img' src={stuffswap} />
+          </div>
           <div className='project-details'>
             <a className='project-link' href='https://stuff-swap.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='StuffSwap'>
               <h1 className='project-title'>StuffSwap<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
@@ -84,7 +88,9 @@ const Projects = () => {
           </div>
         </div>
         <div className='project' id='chefify'>
-          <Image className='project-img' src={chefify} />
+          <div className='project-img-container'>
+            <Image className='project-img' src={chefify} />
+          </div>
           <div className='project-details'>
             <a className='project-link' href='https://kheller18.github.io/chefify/' target='_blank' rel='noopener noreferrer' aria-label='Chefify'>
               <h1 className='project-title'>Chefify<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
@@ -109,7 +115,9 @@ const Projects = () => {
           </div>
         </div>
         <div className='project' id='Verdant'>
-          <Image className='project-img' src={verdant} />
+          <div className='project-img-container'>
+            <Image className='project-img' src={verdant} />
+          </div>
           <div className='project-details'>
             <a className='project-link' href='https://verdant-earth.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Verdant Earth'>
               <h1 className='project-title'>Verdant Earth<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
@@ -140,7 +148,9 @@ const Projects = () => {
           </div>
         </div>
         <div className='project' id='fitness'>
-          <Image className='project-img' src={fitness} />
+          <div className='project-img-container'>
+            <Image className='project-img' src={fitness} />
+          </div>
           <div className='project-details'>
             <a className='project-link' href='https://workout-tracker-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Workout Tracker'>
               <h1 className='project-title'>Workout Tracker<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>

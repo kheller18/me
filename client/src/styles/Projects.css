@@ -18,11 +18,25 @@
   padding-bottom: 5px;
 }
 
+.project-img-container {
+  width: 650px;
+  height: 400px;
+  overflow: hidden;
+}
+
 .project-img {
   width: 650px;
   height: 400px;
   /* object-fit: cover; */
   border-radius: 5px;
+  box-sizing: border-box;
+  transition: .3s ease-in-out;
+}
+
+.project-img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  overflow: hidden;
   box-sizing: border-box;
 }
 
