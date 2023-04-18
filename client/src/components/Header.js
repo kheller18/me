@@ -24,7 +24,8 @@ const Header = props => {
         break;
 
       case 'resume':
-        window.open(`${PDF}`, '_blank'); // navigates to resume page
+        // window.open(`${PDF}`, '_blank'); // navigates to resume page
+        window.open(PDF, '_blank'); // navigates to resume page
         break;
 
       case 'contact':
