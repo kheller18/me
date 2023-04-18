@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   const [theme, setTheme] = useState(
-    localStorage.getItem('theme') || 'light'
+    localStorage.getItem('theme') || 'dark'
   );
 
   const toggleTheme = () => {
