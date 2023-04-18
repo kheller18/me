@@ -5,9 +5,12 @@ import Landing from './components/Landing';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner } from  '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 function App() {
+  const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState(
     localStorage.getItem('theme') || 'dark'
   );
@@ -15,6 +18,27 @@ function App() {
   const toggleTheme = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
   };
+
+  const cacheImages = async (srcArray) => {
+    const promises = await srcArray.map((src) => {
+      return new Promise(function (resolve, reject) {
+        const img = new Image();
+        img.src = src;
+        img.onload = resolve();
+        img.onerror = reject();
+      });
+    });
+    await Promise.all(promises);
+    setLoading(false);
+  };
+
+  useEffect(() => {
+    const imgs = [
+      '../media/travel/spain_me.jpg'
+    ];
+
+    cacheImages(imgs);
+  });
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
@@ -26,12 +50,18 @@ function App() {
       <div className={`App ${theme}`}>
         <Header toggleTheme={toggleTheme} />
         <div className='App-body'>
+          {loading ?
+          <div>
+            <FontAwesomeIcon icon={faSpinner} spin />
+          </div>
+          :
           <Routes>
             <Route path='/' exact element={<Landing />} />
             <Route path='/about' exact element={<About />} />
             <Route path='/projects' exact element={<Projects />} />
             <Route path='/contact' exact element={<Contact />} />
           </Routes>
+          }
         </div>
       </div>
     </Router>
