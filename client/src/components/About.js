@@ -1,4 +1,8 @@
 import React from 'react';
+import Image from './Image';
+import burger from '../media/cooking/burger.jpeg';
+import iceCream from '../media/cooking/blueberry_icecream.jpeg';
+import gondola from '../media/travel/gondola.jpeg';
 import '../styles/About.css';
 
 // component for about me
@@ -26,6 +30,17 @@ const About = () => {
         <p className='about-detail'>
           Check out some of my favorite content below and thanks again for visiting!
         </p>
+      </div>
+      <div className='about-details'>
+        <h1 className='about-container-header'>Menu Items</h1>
+        <div className='about-img-row'>
+          <Image className='about-img' src={burger} />
+          <Image className='about-img' src={iceCream} />
+        </div>
+        <h1 className='about-container-header'>Traveling</h1>
+          <Image className='about-img' src={gondola} />
+        <h1 className='about-container-header'>Teams I Love</h1>
+        <h1 className='about-container-header'>Albums on Repeat</h1>
       </div>
     </div>
   );
