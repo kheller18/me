@@ -13,18 +13,18 @@ import '../styles/Projects.css';
 const Projects = () => {
   return (
     <div className='projects-container'>
-      <h1 className='projects-container-header'>Projects</h1>
+      <h1 className='projects-header'>Projects</h1>
       <div className='projects'>
         <div className='project' id='sportsbook'>
           <div className='project-img-container'>
-            <Image className='project-img' src={sportsbook} />
+            <Image className='project-img' src={sportsbook} onClick={() => window.open('https://sbook-kman.herokuapp.com/', '_blank')} />
           </div>
           <div className='project-details'>
             <a className='project-link' href='https://sbook-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='SportsBook'>
-              <h1 className='project-title'>SportsBook<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+              <h2 className='project-title'>SportsBook<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h2>
             </a>
             <p className='project-description'>A React.js sports betting website where users can place bets and track their earnings.</p>
-            <h2 className='project-subtitle'>Built Using</h2>
+            <h3 className='project-subtitle'>Built Using</h3>
             <div className='project-technologies'>
               <a href='https://react.dev/' target='_blank' rel='noopener noreferrer' aria-label='React.js'>
                 <FontAwesomeIcon className='project-technology' icon={faReact} />
@@ -45,7 +45,7 @@ const Projects = () => {
                 <FontAwesomeIcon className='project-technology' icon={faNodeJs} />
               </a>
             </div>
-            <h2 className='project-subtitle'>Repository</h2>
+            <h3 className='project-subtitle'>Repository</h3>
             <a href='https://github.com/kheller18/sportsbook-4' target='_blank' rel='noopener noreferrer' aria-label='SportsBook Repository'>
                 <FontAwesomeIcon className='project-technology' icon={faGithub} />
             </a>
@@ -53,14 +53,14 @@ const Projects = () => {
         </div>
         <div className='project' id='stuffswap'>
           <div className='project-img-container'>
-            <Image className='project-img' src={stuffswap} />
+            <Image className='project-img' src={stuffswap} onClick={() => window.open('https://stuff-swap.herokuapp.com/', '_blank')} />
           </div>
           <div className='project-details'>
             <a className='project-link' href='https://stuff-swap.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='StuffSwap'>
-              <h1 className='project-title'>StuffSwap<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+              <h2 className='project-title'>StuffSwap<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h2>
             </a>
             <p className='project-description'>An NFT marketplace to add collections, buy and sell NFT's.</p>
-            <h2 className='project-subtitle'>Built Using</h2>
+            <h3 className='project-subtitle'>Built Using</h3>
             <div className='project-technologies'>
               <a href='https://react.dev/' target='_blank' rel='noopener noreferrer' aria-label='React.js'>
                 <FontAwesomeIcon className='project-technology' icon={faReact} />
@@ -81,7 +81,7 @@ const Projects = () => {
                 <FontAwesomeIcon className='project-technology' icon={faEthereum} />
               </a>
             </div>
-            <h2 className='project-subtitle'>Repository</h2>
+            <h3 className='project-subtitle'>Repository</h3>
             <a href='https://github.com/kheller18/stuff-swap' target='_blank' rel='noopener noreferrer' aria-label='StuffSwap Repository'>
                 <FontAwesomeIcon className='project-technology' icon={faGithub} />
             </a>
@@ -89,14 +89,14 @@ const Projects = () => {
         </div>
         <div className='project' id='chefify'>
           <div className='project-img-container'>
-            <Image className='project-img' src={chefify} />
+            <Image className='project-img' src={chefify} onClick={() => window.open('https://kheller18.github.io/chefify/', '_blank')} />
           </div>
           <div className='project-details'>
             <a className='project-link' href='https://kheller18.github.io/chefify/' target='_blank' rel='noopener noreferrer' aria-label='Chefify'>
-              <h1 className='project-title'>Chefify<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+              <h2 className='project-title'>Chefify<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h2>
             </a>
             <p className='project-description'>An application that a user can search for recipes and customize their experience based on their interests.</p>
-            <h2 className='project-subtitle'>Built Using</h2>
+            <h3 className='project-subtitle'>Built Using</h3>
             <div className='project-technologies'>
               <a href='https://www.javascript.com/' target='_blank' rel='noopener noreferrer' aria-label='JavaScript'>
                 <FontAwesomeIcon className='project-technology' icon={faJs} />
@@ -108,7 +108,7 @@ const Projects = () => {
                 <FontAwesomeIcon className='project-technology' icon={faCss3Alt} />
               </a>
             </div>
-            <h2 className='project-subtitle'>Repository</h2>
+            <h3 className='project-subtitle'>Repository</h3>
             <a href='https://github.com/kheller18/chefify' target='_blank' rel='noopener noreferrer' aria-label='Chefify Repository'>
                 <FontAwesomeIcon className='project-technology' icon={faGithub} />
             </a>
@@ -116,14 +116,14 @@ const Projects = () => {
         </div>
         <div className='project' id='Verdant'>
           <div className='project-img-container'>
-            <Image className='project-img' src={verdant} />
+            <Image className='project-img' src={verdant} onClick={() => window.open('https://verdant-earth.herokuapp.com/', '_blank')} />
           </div>
           <div className='project-details'>
             <a className='project-link' href='https://verdant-earth.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Verdant Earth'>
-              <h1 className='project-title'>Verdant Earth<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+              <h2 className='project-title'>Verdant Earth<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h2>
             </a>
             <p className='project-description'>An application that promotes renewable products and resources.</p>
-            <h2 className='project-subtitle'>Built Using</h2>
+            <h3 className='project-subtitle'>Built Using</h3>
             <div className='project-technologies'>
               <a href='https://react.dev/' target='_blank' rel='noopener noreferrer' aria-label='React.js'>
                 <FontAwesomeIcon className='project-technology' icon={faReact} />
@@ -141,7 +141,7 @@ const Projects = () => {
                 <FontAwesomeIcon className='project-technology' icon={faNodeJs} />
               </a>
             </div>
-            <h2 className='project-subtitle'>Repository</h2>
+            <h3 className='project-subtitle'>Repository</h3>
             <a href='https://github.com/kheller18/VerdantEarth' target='_blank' rel='noopener noreferrer' aria-label='Verdant Earth Repository'>
                 <FontAwesomeIcon className='project-technology' icon={faGithub} />
             </a>
@@ -149,14 +149,14 @@ const Projects = () => {
         </div>
         <div className='project' id='fitness'>
           <div className='project-img-container'>
-            <Image className='project-img' src={fitness} />
+            <Image className='project-img' src={fitness} onClick={() => window.open('https://workout-tracker-kman.herokuapp.com/', '_blank')} />
           </div>
           <div className='project-details'>
             <a className='project-link' href='https://workout-tracker-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='Workout Tracker'>
-              <h1 className='project-title'>Workout Tracker<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h1>
+              <h2 className='project-title'>Workout Tracker<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h2>
             </a>
             <p className='project-description'>An application for users to enter their workouts and track their progress.</p>
-            <h2 className='project-subtitle'>Built Using</h2>
+            <h3 className='project-subtitle'>Built Using</h3>
             <div className='project-technologies'>
               <a href='https://www.javascript.com/' target='_blank' rel='noopener noreferrer' aria-label='JavaScript'>
                 <FontAwesomeIcon className='project-technology' icon={faJs} />
@@ -171,7 +171,7 @@ const Projects = () => {
                 <FontAwesomeIcon className='project-technology' icon={faNodeJs} />
               </a>
             </div>
-            <h2 className='project-subtitle'>Repository</h2>
+            <h3 className='project-subtitle'>Repository</h3>
             <a href='https://github.com/kheller18/workout-tracker' target='_blank' rel='noopener noreferrer' aria-label='Workout Tracker Repository'>
                 <FontAwesomeIcon className='project-technology' icon={faGithub} />
             </a>
