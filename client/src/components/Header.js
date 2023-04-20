@@ -42,10 +42,10 @@ const Header = props => {
         <h1 className='header-name' id='home' onClick={(e => handleClick(e.target.id))}>KH</h1>
       </div>
       <ul className="header-right">
-        <li className='header-item' id='about' onClick={(e => handleClick(e.target.id))}>About</li>
-        <li className='header-item' id='projects' onClick={(e => handleClick(e.target.id))}>Projects</li>
-        <li className='header-item' id='resume' onClick={(e => handleClick(e.target.id))}>Resume</li>
-        <li className='header-item' id='contact' onClick={(e => handleClick(e.target.id))}>Contact</li>
+        <h3 className='header-item' id='about' onClick={(e => handleClick(e.target.id))}>About</h3>
+        <h3 className='header-item' id='projects' onClick={(e => handleClick(e.target.id))}>Projects</h3>
+        <h3 className='header-item' id='resume' onClick={(e => handleClick(e.target.id))}>Resume</h3>
+        {/* <h3 className='header-item' id='contact' onClick={(e => handleClick(e.target.id))}>Contact</h3> */}
         <FontAwesomeIcon className='header-icon header-item' id='mode' icon={faCircle} onClick={props.toggleTheme} />
       </ul>
     </div>
