@@ -1,40 +1,36 @@
 /* header styling */
-.header-container {
+/* .header-container {
   display: flex;
   flex-direction: row;
   height: 75px;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px 10px 20px;
-}
+  padding: 10px 50px 10px 10px;
+} */
 
-.header-right {
+/* .header-right {
   width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .header-name:hover {
   cursor: pointer;
   color: var(--light-font-color-hover);
 }
 
-.header-icon {
-  /* color: white; */
-  /* width: 20px; */
+/* .header-icon {
   width: 1.5rem;
   height: 1.5rem;
-  /* height: 20px; */
-}
+} */
 
-.header-item {
+/* .header-item {
   list-style-type: none;
   margin: 0px 5px 0px 5px;
   font-weight: bold;
-  /* font-size: 20px; */
-}
+} */
 
 .header-item:hover {
   cursor: pointer;
@@ -45,16 +41,91 @@
   color: #85bb65; */
 }
 
-.header-logo {
-  height: 75px;
-}
+/* .header-logo {
+  height: 7rem;
+  width: 7rem;
+} */
 
 .header-logo:hover {
   cursor: pointer;
+  color: black;
 }
 
 @keyframes header-icon-key {
   100% {
     color: #85bb65;
   }
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 575px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+  }
+
+  .header-left {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .header-right {
+    padding-left: 5px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-item {
+    list-style-type: none;
+    margin: 0px 5px 0px 5px;
+    font-weight: bold;
+  }
+
+  .header-logo {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .header-item {
+    list-style-type: none;
+    margin: 0px 5px 0px 5px;
+    font-weight: bold;
+  }
+
+  .header-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
