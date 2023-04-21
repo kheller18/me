@@ -37,7 +37,7 @@ const About = () => {
         <div className='about-details-floated'>
           <Image className='about-img-floated' src={gondolaMe} />
           <p className='about-detail-floated'>
-            Hi, I'm Keenan Heller. Thanks for visiting my site!
+            Hi, I'm Keenan. Thanks for visiting my site!
             I studied Mechanical Engineering at the University of Arizona. My career began at Boeing as a Functional Test Manufacturing Engineer for the 777X-8 program,
             a developmental airplane at the time. My manager was aware of my limited experience in Python and asked me to create an internal web app for team visibility.
             As I started working on the project, I quickly realized that my true passion lies in software engineering. The process of coding, debugging, and creating
@@ -72,7 +72,7 @@ const About = () => {
         </p>
       </div>
       <div className='about-details'>
-        <h2 className='about-container-header'>Menu Items</h2>
+        <h2 className='about-subheader'>Menu Items</h2>
         <div className='about-img-row'>
           <Image className='about-img' src={burger} />
           <Image className='about-img' src={iceCream} />
@@ -81,7 +81,7 @@ const About = () => {
         </div>
       </div>
       <div className='about-details'>
-        <h2 className='about-container-header'>Traveling</h2>
+        <h2 className='about-subheader'>Traveling</h2>
         <div className='about-img-row'>
           <Image className='about-img' src={gondola} />
           <Image className='about-img' src={goats} />
@@ -90,7 +90,7 @@ const About = () => {
         </div>
       </div>
       <div className='about-details'>
-        <h2 className='about-container-header'>Albums on Repeat</h2>
+        <h2 className='about-subheader'>Albums on Repeat</h2>
         <div className='about-img-row'>
           <Image className='about-img-music' id='gallows' src={gallows} onClick={() => window.open('https://open.spotify.com/album/6xDWQZ20oAB26Aza1C0EbA', '_blank')} />
           <Image className='about-img-music' id='lady' src={lady} onClick={() => window.open('https://open.spotify.com/album/2wqG59dVVQlJaxoO7N0LJt', '_blank')} />
@@ -101,7 +101,7 @@ const About = () => {
         </div>
       </div>
       <div className='about-details'>
-        <h2 className='about-container-header'>Teams I Love</h2>
+        <h2 className='about-subheader'>Teams I Love</h2>
         <div className='about-img-row'>
           <Image className='about-img-team' id='mariners' src={mariners} onClick={() => window.open('https://www.mlb.com/mariners', '_blank')} />
           <Image className='about-img-team' id='seahawks' src={seahawks} onClick={() => window.open('https://www.seahawks.com/', '_blank')} />
