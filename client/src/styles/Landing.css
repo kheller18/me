@@ -24,14 +24,41 @@
   justify-content: center;
 }
 
-.landing-icon {
+.landing-icon-light {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 10px;
+  color: black;
+}
+
+.landing-icon-dark {
   width: 40px;
   height: 40px;
   margin: 0px 10px 0px 10px;
 }
 
-.landing-icon:hover {
+.landing-icon-light:hover {
   cursor: pointer;
   color: var(--light-font-color-hover);
-  /* background-color: white; */
+}
+
+.landing-icon-dark:hover {
+  cursor: pointer;
+  color: var(--light-font-color-hover);
+}
+
+.landing-name-light {
+  margin-bottom: 15px;
+}
+
+.landing-name-dark {
+  margin-bottom: 15px;
+}
+
+.landing-description-light {
+  margin-top: 15px;
+}
+
+.landing-description-dark {
+  margin-top: 15px;
 }
