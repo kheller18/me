@@ -33,7 +33,6 @@ const About = () => {
     <div className='about-container'>
       <h1 className='about-header'>About Me</h1>
       <div className='about-details'>
-        {/* <p className='about-detail no-margin'>Hi, I'm Keenan Heller. Thanks for visiting my site!</p> */}
         <div className='about-details-floated'>
           <Image className='about-img-floated' src={gondolaMe} />
           <p className='about-detail-floated'>
@@ -56,8 +55,7 @@ const About = () => {
         </p>
         <p className='about-detail'>
           Outside of software development, you can find me in the kitchen, outside, around the world and following my favorite teams.
-          Cooking has evolved from a simple task to a form of artistic expression that is truly soothing for my soul. With each dish, I embark on a culinary journey, carefully selecting ingredients,
-          experimenting with flavors and textures, and creating a symphony of colors and aromas. The kitchen has become my canvas, and cooking has become my art form. The act of cooking has become
+          Cooking has evolved from a simple task to a form of artistic expression that is truly soothing for my soul. The kitchen has become my canvas, and cooking has become my art form. The act of cooking has become
           a therapeutic ritual, allowing me to pour my heart and soul into each dish, and share my passion with others. From the precise plating to the first bite, the joy and satisfaction I derive
           from cooking is unparalleled, filling my heart with warmth and contentment. Cooking has truly become a masterpiece that brings me solace, nourishment, endless inspiration for my soul and
           a way to connect through traveling.
