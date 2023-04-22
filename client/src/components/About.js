@@ -7,7 +7,7 @@ import ravioli from '../media/cooking/ravioli.png';
 import iceCream from '../media/cooking/blueberry_icecream.jpeg';
 import gondola from '../media/travel/gondola.jpeg';
 import gondolaMe from '../media/travel/gondola_me.jpg';
-import mimes from '../media/travel/mimes.jpg';
+// import mimes from '../media/travel/mimes.jpg';
 import goats from '../media/travel/goats.jpeg';
 import luzern from '../media/travel/luzern_me.jpeg';
 import florence from '../media/travel/florence.jpeg';
@@ -66,7 +66,7 @@ const About = () => {
           been a transformative journey that has expanded my horizons in ways I never imagined possible.
         </p>
         <p className='about-detail no-margin'>
-          Want to learn more? Get in contact and send me an <span className='link' onClick={() => navigate('/projects')}>email</span>. Check out some of my favorite content below and thanks again for visiting!
+          Want to learn more? Get in contact and send me an <a href={`mailto:team@keenanheller.com?subject=''}&body=''}`}><span className='link'>email</span></a>. Check out some of my favorite content below and thanks again for visiting!
         </p>
       </div>
       <div className='about-details'>
@@ -79,7 +79,7 @@ const About = () => {
         </div>
       </div>
       <div className='about-details'>
-        <h2 className='about-subheader'>Traveling</h2>
+        <h2 className='about-subheader'>On the Road</h2>
         <div className='about-img-row'>
           <Image className='about-img' src={gondola} />
           <Image className='about-img' src={goats} />
@@ -99,7 +99,7 @@ const About = () => {
         </div>
       </div>
       <div className='about-details'>
-        <h2 className='about-subheader'>Teams I Love</h2>
+        <h2 className='about-subheader'>My Teams</h2>
         <div className='about-img-row'>
           <Image className='about-img-team' id='mariners' src={mariners} onClick={() => window.open('https://www.mlb.com/mariners', '_blank')} />
           <Image className='about-img-team' id='seahawks' src={seahawks} onClick={() => window.open('https://www.seahawks.com/', '_blank')} />
