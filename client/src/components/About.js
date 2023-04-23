@@ -1,28 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Image from './Image';
-import burger from '../media/cooking/burger.jpeg';
-import pizza from '../media/cooking/pizza_oven_cropped.png';
-import ravioli from '../media/cooking/ravioli.png';
-import iceCream from '../media/cooking/blueberry_icecream.jpeg';
-import gondola from '../media/travel/gondola.jpeg';
-import gondolaMe from '../media/travel/gondola_me.jpg';
-// import mimes from '../media/travel/mimes.jpg';
-import goats from '../media/travel/goats.jpeg';
-import luzern from '../media/travel/luzern_me.jpeg';
-import florence from '../media/travel/florence.jpeg';
-import mariners from '../media/teams/mariners.png';
-import seahawks from '../media/teams/seahawks.png';
-import kraken from '../media/teams/kraken.png';
-import sounders from '../media/teams/sounders.png';
-import sonics from '../media/teams/sonics.png';
-import storm from '../media/teams/storm.png';
-import gallows from '../media/music/gallows.jpeg';
-import lady from '../media/music/lady_lady.jpeg';
-import passion from '../media/music/passion_pain_demon_slayin.png';
-import change from '../media/music/time_for_a_change.jpeg';
-import vincent from '../media/music/vincent.jpeg';
-import vbnd from '../media/music/vbnd.jpeg';
 import '../styles/About.css';
 
 // component for about me
@@ -34,7 +12,7 @@ const About = () => {
       <h1 className='about-header'>About Me</h1>
       <div className='about-details'>
         <div className='about-details-floated'>
-          <Image className='about-img-floated' src={gondolaMe} />
+          <Image className='about-img-floated' id='gondola-me' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/gondola_me.jpg' />
           <p className='about-detail-floated'>
             Hi, I'm Keenan. Thanks for visiting my site!
             I studied Mechanical Engineering at the University of Arizona. My career began at Boeing as a Functional Test Manufacturing Engineer for the 777X-8 program,
@@ -66,47 +44,47 @@ const About = () => {
           been a transformative journey that has expanded my horizons in ways I never imagined possible.
         </p>
         <p className='about-detail no-margin'>
-          Want to learn more? Get in contact and send me an <a href={`mailto:team@keenanheller.com?subject=''}&body=''}`}><span className='link'>email</span></a>. Check out some of my favorite content below and thanks again for visiting!
+          Want to learn more? Get in contact and send me an <a href={`mailto:team@keenanheller.com?subject=''&body=''`}><span className='link'>email</span></a>. Check out some of my favorite content below and thanks again for visiting!
         </p>
       </div>
       <div className='about-details'>
         <h2 className='about-subheader'>Menu Items</h2>
         <div className='about-img-row'>
-          <Image className='about-img' src={burger} />
-          <Image className='about-img' src={iceCream} />
-          <Image className='about-img' src={pizza} />
-          <Image className='about-img' src={ravioli} />
+          <Image className='about-img' id='burger' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/burger.jpeg' />
+          <Image className='about-img' id='ice-cream' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/blueberry_icecream.jpeg' />
+          <Image className='about-img' id='pizza' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/pizza_oven_cropped.png' />
+          <Image className='about-img' id='ravioli' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/ravioli.png' />
         </div>
       </div>
       <div className='about-details'>
         <h2 className='about-subheader'>On the Road</h2>
         <div className='about-img-row'>
-          <Image className='about-img' src={gondola} />
-          <Image className='about-img' src={goats} />
-          <Image className='about-img' src={luzern} />
-          <Image className='about-img' src={florence} />
+          <Image className='about-img' id='gondola' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/gondola.jpeg' />
+          <Image className='about-img' id='goats' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/goats.jpeg' />
+          <Image className='about-img' id='luzern' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/luzern_me.jpeg' />
+          <Image className='about-img' id='florence' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/florence.jpeg' />
         </div>
       </div>
       <div className='about-details'>
         <h2 className='about-subheader'>Albums on Repeat</h2>
         <div className='about-img-row'>
-          <Image className='about-img-music' id='gallows' src={gallows} onClick={() => window.open('https://open.spotify.com/album/6xDWQZ20oAB26Aza1C0EbA', '_blank')} />
-          <Image className='about-img-music' id='lady' src={lady} onClick={() => window.open('https://open.spotify.com/album/2wqG59dVVQlJaxoO7N0LJt', '_blank')} />
-          <Image className='about-img-music' id='passion' src={passion} onClick={() => window.open('https://open.spotify.com/album/5bCk3kWAy2JbbTfHqzZCII', '_blank')} />
-          <Image className='about-img-music' id='change' src={change} onClick={() => window.open('https://open.spotify.com/album/5NPQ3KFdwLrZKuOebTAIzb', '_blank')} />
-          <Image className='about-img-music' id='vincent' src={vincent} onClick={() => window.open('https://open.spotify.com/album/5OUJEZppb5mHHwR5Uw0rzw', '_blank')} />
-          <Image className='about-img-music' id='vbnd' src={vbnd} onClick={() => window.open('https://open.spotify.com/album/3rQaTiH5vbjKcI0KoL1olN', '_blank')} />
+          <Image className='about-img-music' id='gallows' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/gallows.jpeg' onClick={() => window.open('https://open.spotify.com/album/6xDWQZ20oAB26Aza1C0EbA', '_blank')} />
+          <Image className='about-img-music' id='lady' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/lady_lady.jpeg' onClick={() => window.open('https://open.spotify.com/album/2wqG59dVVQlJaxoO7N0LJt', '_blank')} />
+          <Image className='about-img-music' id='passion' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/passion_pain_demon_slayin.png' onClick={() => window.open('https://open.spotify.com/album/5bCk3kWAy2JbbTfHqzZCII', '_blank')} />
+          <Image className='about-img-music' id='change' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/time_for_a_change.jpeg' onClick={() => window.open('https://open.spotify.com/album/5NPQ3KFdwLrZKuOebTAIzb', '_blank')} />
+          <Image className='about-img-music' id='vincent' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/vincent.jpeg' onClick={() => window.open('https://open.spotify.com/album/5OUJEZppb5mHHwR5Uw0rzw', '_blank')} />
+          <Image className='about-img-music' id='vbnd' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/vbnd.jpeg' onClick={() => window.open('https://open.spotify.com/album/3rQaTiH5vbjKcI0KoL1olN', '_blank')} />
         </div>
       </div>
       <div className='about-details'>
         <h2 className='about-subheader'>My Teams</h2>
         <div className='about-img-row'>
-          <Image className='about-img-team' id='mariners' src={mariners} onClick={() => window.open('https://www.mlb.com/mariners', '_blank')} />
-          <Image className='about-img-team' id='seahawks' src={seahawks} onClick={() => window.open('https://www.seahawks.com/', '_blank')} />
-          <Image className='about-img-team' id='kraken' src={kraken} onClick={() => window.open('https://www.nhl.com/kraken', '_blank')} />
-          <Image className='about-img-team' id='sounders' src={sounders} onClick={() => window.open('https://www.soundersfc.com/', '_blank')} />
-          <Image className='about-img-team' id='sonics' src={sonics} onClick={() => window.open('https://www.nba.com/sonics', '_blank')} />
-          <Image className='about-img-team' id='storm' src={storm} onClick={() => window.open('https://storm.wnba.com/', '_blank')} />
+          <Image className='about-img-team' id='mariners' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/mariners.png' onClick={() => window.open('https://www.mlb.com/mariners', '_blank')} />
+          <Image className='about-img-team' id='seahawks' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/seahawks.png' onClick={() => window.open('https://www.seahawks.com/', '_blank')} />
+          <Image className='about-img-team' id='kraken' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/kraken.png' onClick={() => window.open('https://www.nhl.com/kraken', '_blank')} />
+          <Image className='about-img-team' id='sounders' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/sounders.png' onClick={() => window.open('https://www.soundersfc.com/', '_blank')} />
+          <Image className='about-img-team' id='sonics' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/sonics.png' onClick={() => window.open('https://www.nba.com/sonics', '_blank')} />
+          <Image className='about-img-team' id='storm' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/storm.png' onClick={() => window.open('https://storm.wnba.com/', '_blank')} />
         </div>
       </div>
     </div>

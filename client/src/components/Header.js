@@ -4,8 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from  '@fortawesome/free-regular-svg-icons';
 import Image from './Image';
 import PDF from '../media/resume/KeenanHellerResume.pdf';
-// import logoLight from '../media/logo/logo_transparent2.svg';
-// import logoLight from '../media/logo/new_light.svg';
 import logoLight from '../media/logo/light.svg';
 import logoDark from '../media/logo/logo_dark_mode.svg';
 import '../styles/Header.css';
