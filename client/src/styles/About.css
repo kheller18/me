@@ -132,6 +132,7 @@
 
   .about-img-team {
     width: 48%;
+    height: 190px;
   }
 }
 
@@ -151,6 +152,7 @@
 
   .about-img-team {
     width: 48%;
+    height: 190px;
   }
 }
 
@@ -161,47 +163,49 @@
   }
 
   .about-img {
-    width: 48%;
+    width: 23%;
   }
 
   .about-img-music {
-    width: 48%;
+    width: 32%;
   }
 
   .about-img-team {
-    width: 48%;
+    width: 32%;
+    height: 200px;
   }
 }
 
 /* Large devices (desktops, 992px through 1199.99px) */
 @media (min-width: 992px) and (max-width: 1199.99px) {
   .about-container {
-    width: 75%;
-    margin-left: 12.5%;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .about-img {
-    width: 48%;
+    width: 23%;
   }
 
   .about-img-music {
-    width: 48%;
+    width: 32%;
   }
 
   .about-img-team {
-    width: 48%;
+    width: 32%;
+    height: 200px;
   }
 }
 
 /* Extra large devices (large desktops, 1200px through 1599.99px) */
 @media (min-width: 1200px) and (max-width: 1599.99px) {
   .about-container {
-    width: 65%;
-    margin-left: 17.5%;
+    width: 75%;
+    margin-left: 12.5%;
   }
 
   .about-img {
-    width: 22%;
+    width: 23%;
   }
 
   .about-img-music {
@@ -216,12 +220,12 @@
 /* Extra large devices (large desktops, 1600px and up) */
 @media (min-width: 1600px) {
   .about-container {
-    width: 65%;
-    margin-left: 17.5%;
+    width: 70%;
+    margin-left: 15%;
   }
 
   .about-img {
-    width: 22%;
+    width: 23%;
   }
 
   .about-img-music {
