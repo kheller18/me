@@ -1,84 +1,95 @@
-/* .about-container {
+.about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 200px;
-} */
+  padding: 1em;
+  box-sizing: border-box;
+}
 
-/* .about-header {
+.about-header {
   display: flex;
   flex-direction: column;
   align-self: center;
   text-align: left;
-  width: 1050px;
+  width: 100%;
   margin: 0px 0px 20px 0px;
   padding-bottom: 5px;
-} */
+}
 
-/* .about-subheader {
+.about-subheader {
   display: flex;
   flex-direction: column;
   align-self: center;
   text-align: left;
-  width: 1050px;
-  border-bottom: 2px solid white;
+  width: 100%;
   margin-bottom: 20px;
   padding-bottom: 5px;
-} */
+}
 
-/* .about-details {
+.about-details {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 1050px;
+  width: 100%;
   box-sizing: border-box;
   line-height: 1.5;
   margin: 20px 0px 20px 0px;
-} */
+}
 
-/* .about-detail {
+.about-detail {
   text-align: left;
   width: 100%;
   font-weight: bold;
   margin: 7.5px 0px 7.5px 0px;
-} */
+}
 
-/* .about-detail-floated {
+.about-detail-floated {
   text-align: left;
   width: 100%;
   font-weight: bold;
   margin: 0px 0px 7.5px 0px;
   padding: 0px;
-} */
+}
 
-/* .about-detail-floated:first-letter {
-  /* font-size: 150%; */
-  /* padding: 0px; */
-  /* line-height: 1.5; */
-  /* padding-left: 20px; */
-/* } */
-
-/* .about-img-row {
+.about-img-row {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  overflow: wrap;
-} */
+  flex-wrap: wrap;
+}
 
-/* .about-img-floated {
+.about-img-floated {
   width: 250px;
   display: block;
   float: left;
   margin-right: 1em;
   border-radius: 5px;
-} */
+}
 
-/* .about-img {
-  width: 250px;
+.about-img {
   border-radius: 5px;
+  margin-bottom: 1rem;
   object-fit: cover;
-} */
+}
+
+.about-img-music {
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.about-img-team {
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  object-fit: cover;
+}
 
 .fit {
   object-fit: cover;
@@ -87,21 +98,6 @@
 .no-margin {
   margin: 0px;
 }
-
-/* .about-img-music {
-  width: 150px;
-  background-color: white;
-  border-radius: 5px;
-  padding: 7px;
-} */
-
-/* .about-img-team {
-  width: 150px;
-  background-color: white;
-  border-radius: 5px;
-  padding: 7px;
-  object-fit: cover;
-} */
 
 .link {
   color: var(--light-font-color-hover) !important;
@@ -120,504 +116,119 @@
   cursor: pointer;
 }
 
-/* Small devices (landscape phones, 576px and down) */
-@media (max-width: 575px) {
+/* Small devices (landscape phones, 575.99px and down) */
+@media (max-width: 575.99px) {
   .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
-    margin-bottom: 200px;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-
-  .about-header {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin: 0px 0px 20px 0px;
-    padding-bottom: 5px;
-  }
-
-  .about-subheader {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-  }
-
-  .about-details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-    line-height: 1.5;
-    margin: 20px 0px 20px 0px;
-  }
-
-  .about-detail {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 7.5px 0px 7.5px 0px;
-  }
-
-  .about-detail-floated {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 0px 0px 7.5px 0px;
-    padding: 0px;
-  }
-
-  .about-img-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .about-img-floated {
-    width: 250px;
-    display: block;
-    float: left;
-    margin-right: 1em;
-    border-radius: 5px;
   }
 
   .about-img {
     width: 48%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    object-fit: cover;
   }
 
   .about-img-music {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
   }
 
   .about-img-team {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    object-fit: cover;
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
+/* Small devices (landscape phones, 576px through 767.99px) */
+@media (min-width: 576px) and (max-width: 767.99px) {
   .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
-    margin-bottom: 200px;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-
-  .about-header {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin: 0px 0px 20px 0px;
-    padding-bottom: 5px;
-  }
-
-  .about-subheader {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-  }
-
-  .about-details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-    line-height: 1.5;
-    margin: 20px 0px 20px 0px;
-  }
-
-  .about-detail {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 7.5px 0px 7.5px 0px;
-  }
-
-  .about-detail-floated {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 0px 0px 7.5px 0px;
-    padding: 0px;
-  }
-
-  .about-img-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .about-img-floated {
-    width: 250px;
-    display: block;
-    float: left;
-    margin-right: 1em;
-    border-radius: 5px;
   }
 
   .about-img {
     width: 48%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    object-fit: cover;
   }
 
   .about-img-music {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
   }
 
   .about-img-team {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    object-fit: cover;
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
+/* Medium devices (tablets, 768px through 991.99px) */
+@media (min-width: 768px) and (max-width: 991.99px) {
   .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
-    margin-bottom: 200px;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-
-  .about-header {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin: 0px 0px 20px 0px;
-    padding-bottom: 5px;
-  }
-
-  .about-subheader {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-  }
-
-  .about-details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-    line-height: 1.5;
-    margin: 20px 0px 20px 0px;
-  }
-
-  .about-detail {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 7.5px 0px 7.5px 0px;
-  }
-
-  .about-detail-floated {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 0px 0px 7.5px 0px;
-    padding: 0px;
-  }
-
-  .about-img-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .about-img-floated {
-    width: 250px;
-    display: block;
-    float: left;
-    margin-right: 1em;
-    border-radius: 5px;
   }
 
   .about-img {
     width: 48%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    object-fit: cover;
   }
 
   .about-img-music {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
   }
 
   .about-img-team {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    object-fit: cover;
   }
 }
 
-/* Large devices (desktops, 992px through 1199px) */
-@media (min-width: 992px) and (max-width: 1199px) {
+/* Large devices (desktops, 992px through 1199.99px) */
+@media (min-width: 992px) and (max-width: 1199.99px) {
   .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 75%;
     margin-left: 12.5%;
-    margin-bottom: 200px;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-
-  .about-header {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin: 0px 0px 20px 0px;
-    padding-bottom: 5px;
-  }
-
-  .about-subheader {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-  }
-
-  .about-details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-    line-height: 1.5;
-    margin: 20px 0px 20px 0px;
-  }
-
-  .about-detail {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 7.5px 0px 7.5px 0px;
-  }
-
-  .about-detail-floated {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 0px 0px 7.5px 0px;
-    padding: 0px;
-  }
-
-  .about-img-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .about-img-floated {
-    width: 250px;
-    display: block;
-    float: left;
-    margin-right: 1em;
-    border-radius: 5px;
   }
 
   .about-img {
     width: 48%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    object-fit: cover;
   }
 
   .about-img-music {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
   }
 
   .about-img-team {
     width: 48%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    object-fit: cover;
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Extra large devices (large desktops, 1200px through 1599.99px) */
+@media (min-width: 1200px) and (max-width: 1599.99px) {
   .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 65%;
     margin-left: 17.5%;
-    margin-bottom: 200px;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-
-  .about-header {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin: 0px 0px 20px 0px;
-    padding-bottom: 5px;
-  }
-
-  .about-subheader {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-  }
-
-  .about-details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-    line-height: 1.5;
-    margin: 20px 0px 20px 0px;
-  }
-
-  .about-detail {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 7.5px 0px 7.5px 0px;
-  }
-
-  .about-detail-floated {
-    text-align: left;
-    width: 100%;
-    font-weight: bold;
-    margin: 0px 0px 7.5px 0px;
-    padding: 0px;
-  }
-
-  .about-img-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .about-img-floated {
-    width: 250px;
-    display: block;
-    float: left;
-    margin-right: 1em;
-    border-radius: 5px;
   }
 
   .about-img {
     width: 22%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    object-fit: cover;
   }
 
   .about-img-music {
     width: 15%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
   }
 
   .about-img-team {
     width: 15%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    object-fit: cover;
+  }
+}
+
+/* Extra large devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  .about-container {
+    width: 65%;
+    margin-left: 17.5%;
+  }
+
+  .about-img {
+    width: 22%;
+  }
+
+  .about-img-music {
+    width: 15%;
+  }
+
+  .about-img-team {
+    width: 15%;
   }
 }

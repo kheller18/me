@@ -133,7 +133,7 @@
   padding-left: 10px;
 }
 
-/* Small devices (landscape phones, 576px and down) */
+/* Small devices (landscape phones, 575.99px and down) */
 @media (max-width: 575.99px) {
   .projects-container {
     padding: 1em;
