@@ -30,12 +30,38 @@ function App() {
       });
     });
     await Promise.all(promises);
+    console.log(srcArray);
     setLoading(false);
   };
 
   useEffect(() => {
     const imgs = [
-      '../media/travel/spain_me.jpg'
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/gondola_me.jpg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/burger.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/blueberry_icecream.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/pizza_oven_cropped.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/cooking/ravioli.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/gondola.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/goats.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/luzern_me.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/travel/florence.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/gallows.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/lady_lady.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/passion_pain_demon_slayin.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/time_for_a_change.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/vincent.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/music/vbnd.jpeg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/mariners.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/seahawks.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/kraken.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/sounders.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/sonics.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/teams/storm.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/sportsbook.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/stuffswap.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/chefify2.jpg',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/verdant_earth.png',
+      'https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/fitness.png',
     ];
 
     cacheImages(imgs);
