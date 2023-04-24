@@ -7,8 +7,7 @@
 .landing-image {
   object-fit: cover;
   border-radius: 50%;
-  padding: 10px;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 .landing-icons {
@@ -56,7 +55,7 @@
   margin-top: 15px;
 }
 
-/* Small devices (landscape phones, 575.99px and down) */
+/* Small devices (landscape phones, 768.99px and down) */
 @media (max-width: 768.99px) {
   .landing-image-container {
     width: 300px;
