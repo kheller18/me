@@ -44,7 +44,7 @@ const About = () => {
           been a transformative journey that has expanded my horizons in ways I never imagined possible.
         </p>
         <p className='about-detail no-margin'>
-          Want to learn more? Get in contact and send me an <a href={`mailto:team@keenanheller.com?subject=''&body=''`}><span className='link'>email</span></a>. Check out some of my favorite content below and thanks again for visiting!
+          Want to learn more? Get in contact and send me an <a href={`mailto:team@keenanheller.com?`}><span className='link'>email</span></a>. Check out some of my favorite content below and thanks again for visiting!
         </p>
       </div>
       <div className='about-details'>
