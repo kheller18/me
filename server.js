@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 
-// defining the port for heroku or local
+// defining the port for aws or local
 const PORT = process.env.PORT || 3001;
 
 // initializing app
