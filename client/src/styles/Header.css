@@ -1,3 +1,4 @@
+/* common styles for header container regardless of screen size */
 .header-container {
   display: flex;
   flex-direction: row;

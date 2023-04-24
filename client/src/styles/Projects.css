@@ -1,3 +1,4 @@
+/* common styles for project container regardless of screen size */
 .projects-container {
   display: flex;
   flex-direction: column;
