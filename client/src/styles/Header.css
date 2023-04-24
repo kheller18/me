@@ -53,23 +53,6 @@
   }
 }
 
-/* Small devices (landscape phones, 576px and down) */
-@media (max-width: 575px) {
-  .header-right {
-    width: 85%;
-  }
-
-  .header-logo {
-    height: 3rem;
-    width: 3rem;
-  }
-
-  .header-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-}
-
 /* Small devices (landscape phones, 575.99px and down) */
 @media (max-width: 575.99px) {
   .header-right {
@@ -94,8 +77,8 @@
   }
 
   .header-logo {
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
   }
 
   .header-icon {
@@ -111,8 +94,8 @@
   }
 
   .header-logo {
-    height: 5rem;
-    width: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
   }
 
   .header-icon {
@@ -128,8 +111,8 @@
   }
 
   .header-logo {
-    height: 5rem;
-    width: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
   }
 
   .header-icon {
