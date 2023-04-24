@@ -6,8 +6,8 @@ import Image from './Image';
 import PDF from '../media/resume/KeenanHellerResume.pdf';
 import logoLight from '../media/logo/light.svg';
 import logoDark from '../media/logo/logo_dark_mode.svg';
-import '../styles/Header.css';
 import { ThemeContext } from '../App';
+import '../styles/Header.css';
 
 const Header = props => {
   const navigate = useNavigate();
