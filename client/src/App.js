@@ -17,8 +17,6 @@ function App() {
     localStorage.getItem('theme') || 'dark'
   );
 
-  // ThemeContext = React.createContext(theme);
-
   const toggleTheme = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
   };
