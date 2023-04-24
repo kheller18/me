@@ -4,15 +4,8 @@
   align-items: center;
 }
 
-.landing-image-container {
-  width: 400px;
-  height: 400px;
-}
-
 .landing-image {
   object-fit: cover;
-  height: 350px;
-  width: 350px;
   border-radius: 50%;
   padding: 10px;
   border: 2px solid white;
@@ -61,4 +54,30 @@
 
 .landing-description-dark {
   margin-top: 15px;
+}
+
+/* Small devices (landscape phones, 575.99px and down) */
+@media (max-width: 768.99px) {
+  .landing-image-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .landing-image {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/* All other devices (landscape phones, 769px and up) */
+@media (min-width: 769px) {
+  .landing-image-container {
+    width: 350px;
+    height: 350px;
+  }
+
+  .landing-image {
+    width: 350px;
+    height: 350px;
+  }
 }
