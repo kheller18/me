@@ -33,10 +33,9 @@ const About = () => {
         </p>
         <p className='about-detail'>
           Outside of software development, you can find me in the kitchen, outside, around the world and following my favorite teams.
-          Cooking has evolved from a simple task to a form of artistic expression that is truly soothing for my soul. The kitchen has become my canvas, and cooking has become my art form. The act of cooking has become
+          Cooking has evolved from a simple task to a form of artistic expression that is truly soothing for my soul. The act of cooking has become
           a therapeutic ritual, allowing me to pour my heart and soul into each dish, and share my passion with others. From the precise plating to the first bite, the joy and satisfaction I derive
-          from cooking is unparalleled, filling my heart with warmth and contentment. Cooking has truly become a masterpiece that brings me solace, nourishment, endless inspiration for my soul and
-          a way to connect through traveling.
+          from cooking is unparalleled and has evolved into a way connect when traveling.
         </p>
         <p className='about-detail'>
           Through my experiences with traveling, I have been able to broaden my horizons and gain a deeper understanding of the world around me. Exploring new cultures, meeting diverse people,
