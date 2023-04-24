@@ -3,8 +3,8 @@ import Image from './Image';
 import me from '../media/travel/spain_me.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import '../styles/Landing.css';
 import { ThemeContext } from '../App';
+import '../styles/Landing.css';
 
 // component for website home
 const Landing = () => {
