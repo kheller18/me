@@ -81,10 +81,9 @@ To use the app, and once all steps are completed in the [Installation](#1-instal
 ---
 
 ## 6. Deployment
-  + There is currently live deployment of the front end. The user can also deploy the application locally to be able to use full functionality of the site. Both methods are described below.
-    + [Front End]()
-    + Local Deployment:
-      + Refer to the [Installation](#1-installation) and [Usage](#2-usage) sections of this document.
+  + [Keenan's Website](www.keenanheller.com)
+  + Local Deployment:
+    + Refer to the [Installation](#1-installation) and [Usage](#2-usage) sections of this document.
 
 
 ---
