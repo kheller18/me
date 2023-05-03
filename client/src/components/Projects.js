@@ -15,14 +15,14 @@ const Projects = () => {
       <div className='projects'>
         <div className='project' id='sportsbook'>
           <div className='project-img-container'>
-            <Image className='project-img' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/sportsbook.png' onClick={() => window.open('hhttps://www.playerschoicesportsbook.com/', '_blank')} />
+            <Image className='project-img' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/sportsbook.png' onClick={() => window.open('https://www.playerschoicesportsbook.com', '_blank')} />
           </div>
           <div className='project-details'>
             <a className='project-link' href='https://sbook-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='SportsBook'>
               <h2 className={`project-title-${theme}`}>SportsBook<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h2>
             </a>
             <div className='project-img-container-mobile'>
-              <Image className='project-img-mobile' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/sportsbook.png' onClick={() => window.open('https://www.playerschoicesportsbook.com/', '_blank')} />
+              <Image className='project-img-mobile' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/sportsbook.png' onClick={() => window.open('https://www.playerschoicesportsbook.com', '_blank')} />
             </div>
             <p className='project-description'>A React.js sports betting website where users can place bets and track their earnings.</p>
             <h3 className='project-subtitle'>Built Using</h3>
