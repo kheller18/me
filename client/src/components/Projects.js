@@ -18,7 +18,7 @@ const Projects = () => {
             <Image className='project-img' src='https://keenanwebsite.s3.us-west-2.amazonaws.com/media/projects/sportsbook.png' onClick={() => window.open('https://www.playerschoicesportsbook.com', '_blank')} />
           </div>
           <div className='project-details'>
-            <a className='project-link' href='https://sbook-kman.herokuapp.com/' target='_blank' rel='noopener noreferrer' aria-label='SportsBook'>
+            <a className='project-link' href='https://www.playerschoicesportsbook.com' target='_blank' rel='noopener noreferrer' aria-label='SportsBook'>
               <h2 className={`project-title-${theme}`}>SportsBook<span className='project-icon'><FontAwesomeIcon icon={faUpRightFromSquare} /></span></h2>
             </a>
             <div className='project-img-container-mobile'>
