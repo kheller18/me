@@ -15,7 +15,7 @@ const Landing = () => {
       <Image className='landing-image' src={me} />
       <div className='landing-body'>
         <h1 className={`landing-name-${theme}`}>Keenan Heller</h1>
-        <h3 className={`landing-description-${theme}`}>Full Stack Developer @ Boeing</h3>
+        <h3 className={`landing-description-${theme}`}>Software Engineer @ <span className={`landing-company-${theme}`} onClick={() => window.open(`https://diracinc.com/`, '_blank')}>Dirac</span></h3>
         <div className='landing-icons'>
           <a href='https://github.com/kheller18' target='_blank' rel='noopener noreferrer' aria-label='GitHub'>
             <FontAwesomeIcon className={`landing-icon-${theme}`} id='github' icon={faGithub} />
