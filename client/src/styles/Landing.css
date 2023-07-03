@@ -30,6 +30,16 @@
   margin: 0px 10px 0px 10px;
 }
 
+.landing-company-light:hover {
+  cursor: pointer;
+  color: var(--light-font-color-hover);
+}
+
+.landing-company-dark:hover {
+  cursor: pointer;
+  color: var(--light-font-color-hover);
+}
+
 .landing-icon-light:hover {
   cursor: pointer;
   color: var(--light-font-color-hover);
